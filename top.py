@@ -1,4 +1,3 @@
-
 import cv2
 import numpy as np
 import copy
@@ -17,7 +16,6 @@ def hsvFilter(img,lowerHSV,upperHSV,returnMask=True):
         return mask
     else:
         return res
-
     
 cv2.namedWindow('settings')
 cap = cv2.VideoCapture(0)
